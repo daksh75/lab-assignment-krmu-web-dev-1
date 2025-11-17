@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>daksh jakhar</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article >
+            <h1>Welcome to my Portfolio</h1>
+            <p>This portfolio is a small collection of my work and
+                learning from Semester 1. It reflects my efforts,
+                experiences, and the knowledge I have gained during
+                this time. Through this, I want to show my growth as
+                a student and how I am trying to improve step by step.</p>
+        </article><hr>
+        <section id="about">
+            <h1>About Me</h1>
+            <img src="d:\html\profile.jpg.jpg" alt="my image">
+            <p>My name is daksh jakhar and I am a first semester student.
+                I enjoy learning new topics and trying to improve my
+                skills every day. I believe in working with dedication
+                and giving my best in whatever I do. Along with studies
+                , I also like playing games, drawing, or music. These activities keep me
+                motivated and help me stay balanced. My aim is to grow
+                step by step and make the most of my college journey.</p>
+        </section><hr>
+        <section id="project">
+            <h1>My Projects</h1>
+            <ul>
+                <li><b>Portfolio Website:</b> <br>A personal one-page website
+                    to showcase my bio,skills and contact details.</li>
+                <li><b>Medium Clone:</b><br> A copy of login pages of facebook,instagram and google.</li>
+                <li><b>Python Programs:</b><br> A simple calculator that calculates Add,Sub,Multiply and Divide.</li>
+            </ul>
+        </section><hr>
+        <section class="tech">
+            <h1>Technical Skills</h1>
+            <table border="1">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Begineer</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Moderate</td>
+                </tr>
+            </table>
+        </section><hr>
+        <section id="contact">
+            <h1>Contact</h1>
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" placeholder="Enter your name" id="name"><br><br>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="Enter your email" id="email"><br><br>
+                <label>Message: </label>
+                <textarea cols="40" rows="3">Enter your message</textarea><br><br>
+                <button class="sub">submit </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="#">Back to top</a>
+    </footer>
+</body>
+
+</html>
